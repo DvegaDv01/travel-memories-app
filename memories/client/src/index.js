@@ -8,7 +8,7 @@ import reducers from './reducers'; // combined reducers
 
 import App from './App';
 
-const store = createStore(reducers, compose(applyMiddleware(thunk)))
+const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(
     // final step in connection to Redux
