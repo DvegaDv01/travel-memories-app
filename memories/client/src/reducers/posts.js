@@ -10,5 +10,5 @@ export default (posts = [], action) => {
         default:
             return posts;
     }
-}
+};
 // used in combineReducers ./index.js
